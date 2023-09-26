@@ -11,6 +11,13 @@
 		A48289EA2AC2EA9300393BA1 /* CaptionedPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48289E92AC2EA9300393BA1 /* CaptionedPhoto.swift */; };
 		A48289EC2AC2F04800393BA1 /* IfElseTrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48289EB2AC2F04800393BA1 /* IfElseTrain.swift */; };
 		A48289EE2AC2F1F000393BA1 /* EventTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48289ED2AC2F1F000393BA1 /* EventTile.swift */; };
+		A48289F02AC2F4CA00393BA1 /* TrainCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48289EF2AC2F4CA00393BA1 /* TrainCar.swift */; };
+		A48289F22AC2F5D300393BA1 /* TrainCars.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48289F12AC2F5D300393BA1 /* TrainCars.swift */; };
+		A48289F42AC2F66F00393BA1 /* SpecificSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48289F32AC2F66F00393BA1 /* SpecificSpacing.swift */; };
+		A48289F72AC2F78400393BA1 /* ZeroSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48289F62AC2F78400393BA1 /* ZeroSpacing.swift */; };
+		A48289F92AC2F7DB00393BA1 /* DefaultPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48289F82AC2F7DB00393BA1 /* DefaultPadding.swift */; };
+		A48289FB2AC2F89200393BA1 /* AddingSpacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48289FA2AC2F89200393BA1 /* AddingSpacer.swift */; };
+		A48289FD2AC2F8E300393BA1 /* AddingPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48289FC2AC2F8E300393BA1 /* AddingPlaceholder.swift */; };
 		A488689E2AC2B023005044F8 /* AppleSwiftUITutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A488689D2AC2B023005044F8 /* AppleSwiftUITutorialApp.swift */; };
 		A48868A02AC2B023005044F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A488689F2AC2B023005044F8 /* ContentView.swift */; };
 		A48868A42AC2B023005044F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A48868A32AC2B023005044F8 /* Assets.xcassets */; };
@@ -27,6 +34,13 @@
 		A48289E92AC2EA9300393BA1 /* CaptionedPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptionedPhoto.swift; sourceTree = "<group>"; };
 		A48289EB2AC2F04800393BA1 /* IfElseTrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfElseTrain.swift; sourceTree = "<group>"; };
 		A48289ED2AC2F1F000393BA1 /* EventTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTile.swift; sourceTree = "<group>"; };
+		A48289EF2AC2F4CA00393BA1 /* TrainCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainCar.swift; sourceTree = "<group>"; };
+		A48289F12AC2F5D300393BA1 /* TrainCars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainCars.swift; sourceTree = "<group>"; };
+		A48289F32AC2F66F00393BA1 /* SpecificSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificSpacing.swift; sourceTree = "<group>"; };
+		A48289F62AC2F78400393BA1 /* ZeroSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeroSpacing.swift; sourceTree = "<group>"; };
+		A48289F82AC2F7DB00393BA1 /* DefaultPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultPadding.swift; sourceTree = "<group>"; };
+		A48289FA2AC2F89200393BA1 /* AddingSpacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingSpacer.swift; sourceTree = "<group>"; };
+		A48289FC2AC2F8E300393BA1 /* AddingPlaceholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingPlaceholder.swift; sourceTree = "<group>"; };
 		A488689A2AC2B023005044F8 /* AppleSwiftUITutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleSwiftUITutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A488689D2AC2B023005044F8 /* AppleSwiftUITutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleSwiftUITutorialApp.swift; sourceTree = "<group>"; };
 		A488689F2AC2B023005044F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +65,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A48289F52AC2F73400393BA1 /* Adjusting the space between views */ = {
+			isa = PBXGroup;
+			children = (
+				A48289EF2AC2F4CA00393BA1 /* TrainCar.swift */,
+				A48289F62AC2F78400393BA1 /* ZeroSpacing.swift */,
+				A48289F82AC2F7DB00393BA1 /* DefaultPadding.swift */,
+				A48289FA2AC2F89200393BA1 /* AddingSpacer.swift */,
+				A48289FC2AC2F8E300393BA1 /* AddingPlaceholder.swift */,
+				A48289F12AC2F5D300393BA1 /* TrainCars.swift */,
+				A48289F32AC2F66F00393BA1 /* SpecificSpacing.swift */,
+			);
+			path = "Adjusting the space between views";
+			sourceTree = "<group>";
+		};
 		A48868912AC2B023005044F8 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +109,7 @@
 				A48868AE2AC2B801005044F8 /* SettingsView.swift */,
 				A48868B02AC2B9C2005044F8 /* SettingsDetailsView.swift */,
 				A488689F2AC2B023005044F8 /* ContentView.swift */,
+				A48289F52AC2F73400393BA1 /* Adjusting the space between views */,
 				A48868A32AC2B023005044F8 /* Assets.xcassets */,
 				A48868A52AC2B023005044F8 /* AppleSwiftUITutorial.entitlements */,
 				A48868A62AC2B023005044F8 /* Preview Content */,
@@ -168,13 +197,20 @@
 			files = (
 				A48868AF2AC2B801005044F8 /* SettingsView.swift in Sources */,
 				A48869952AC2BE5A005044F8 /* ViewSamples.swift in Sources */,
+				A48289FD2AC2F8E300393BA1 /* AddingPlaceholder.swift in Sources */,
 				A48868A02AC2B023005044F8 /* ContentView.swift in Sources */,
 				A48868B32AC2BAE2005044F8 /* MyScene.swift in Sources */,
 				A48868B12AC2B9C2005044F8 /* SettingsDetailsView.swift in Sources */,
 				A48289EE2AC2F1F000393BA1 /* EventTile.swift in Sources */,
 				A48869932AC2BD6A005044F8 /* MyAlternativeScene.swift in Sources */,
+				A48289F22AC2F5D300393BA1 /* TrainCars.swift in Sources */,
 				A48289EC2AC2F04800393BA1 /* IfElseTrain.swift in Sources */,
+				A48289F42AC2F66F00393BA1 /* SpecificSpacing.swift in Sources */,
 				A488689E2AC2B023005044F8 /* AppleSwiftUITutorialApp.swift in Sources */,
+				A48289F92AC2F7DB00393BA1 /* DefaultPadding.swift in Sources */,
+				A48289F72AC2F78400393BA1 /* ZeroSpacing.swift in Sources */,
+				A48289FB2AC2F89200393BA1 /* AddingSpacer.swift in Sources */,
+				A48289F02AC2F4CA00393BA1 /* TrainCar.swift in Sources */,
 				A48289EA2AC2EA9300393BA1 /* CaptionedPhoto.swift in Sources */,
 				A48289E82AC2E82000393BA1 /* KeywordBubble.swift in Sources */,
 			);
