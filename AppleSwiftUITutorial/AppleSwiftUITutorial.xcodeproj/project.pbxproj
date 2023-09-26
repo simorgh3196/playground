@@ -119,6 +119,17 @@
 			path = "Maintaining the adaptable sizes of built-in views";
 			sourceTree = "<group>";
 		};
+		A4828A032AC2FAEB00393BA1 /* Specifying the view hierarchy of an app using a scene */ = {
+			isa = PBXGroup;
+			children = (
+				A48868B22AC2BAE2005044F8 /* MyScene.swift */,
+				A48869922AC2BD6A005044F8 /* MyAlternativeScene.swift */,
+				A48868AE2AC2B801005044F8 /* SettingsView.swift */,
+				A48868B02AC2B9C2005044F8 /* SettingsDetailsView.swift */,
+			);
+			path = "Specifying the view hierarchy of an app using a scene";
+			sourceTree = "<group>";
+		};
 		A48868912AC2B023005044F8 = {
 			isa = PBXGroup;
 			children = (
@@ -139,11 +150,8 @@
 			isa = PBXGroup;
 			children = (
 				A488689D2AC2B023005044F8 /* AppleSwiftUITutorialApp.swift */,
-				A48868B22AC2BAE2005044F8 /* MyScene.swift */,
-				A48869922AC2BD6A005044F8 /* MyAlternativeScene.swift */,
-				A48868AE2AC2B801005044F8 /* SettingsView.swift */,
-				A48868B02AC2B9C2005044F8 /* SettingsDetailsView.swift */,
 				A488689F2AC2B023005044F8 /* ContentView.swift */,
+				A4828A032AC2FAEB00393BA1 /* Specifying the view hierarchy of an app using a scene */,
 				A4828A022AC2FAB600393BA1 /* Maintaining the adaptable sizes of built-in views */,
 				A4828A012AC2FA8A00393BA1 /* Scaling views to complement text */,
 				A4828A002AC2FA4000393BA1 /* Layering content */,
