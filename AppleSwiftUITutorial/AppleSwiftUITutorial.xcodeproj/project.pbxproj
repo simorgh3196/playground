@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		A488689E2AC2B023005044F8 /* AppleSwiftUITutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A488689D2AC2B023005044F8 /* AppleSwiftUITutorialApp.swift */; };
 		A48868A02AC2B023005044F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A488689F2AC2B023005044F8 /* ContentView.swift */; };
-		A48868A22AC2B023005044F8 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48868A12AC2B023005044F8 /* Item.swift */; };
 		A48868A42AC2B023005044F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A48868A32AC2B023005044F8 /* Assets.xcassets */; };
 		A48868A82AC2B023005044F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A48868A72AC2B023005044F8 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -18,7 +17,6 @@
 		A488689A2AC2B023005044F8 /* AppleSwiftUITutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleSwiftUITutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A488689D2AC2B023005044F8 /* AppleSwiftUITutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleSwiftUITutorialApp.swift; sourceTree = "<group>"; };
 		A488689F2AC2B023005044F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A48868A12AC2B023005044F8 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		A48868A32AC2B023005044F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A48868A52AC2B023005044F8 /* AppleSwiftUITutorial.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppleSwiftUITutorial.entitlements; sourceTree = "<group>"; };
 		A48868A72AC2B023005044F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -56,7 +54,6 @@
 			children = (
 				A488689D2AC2B023005044F8 /* AppleSwiftUITutorialApp.swift */,
 				A488689F2AC2B023005044F8 /* ContentView.swift */,
-				A48868A12AC2B023005044F8 /* Item.swift */,
 				A48868A32AC2B023005044F8 /* Assets.xcassets */,
 				A48868A52AC2B023005044F8 /* AppleSwiftUITutorial.entitlements */,
 				A48868A62AC2B023005044F8 /* Preview Content */,
@@ -143,7 +140,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A48868A02AC2B023005044F8 /* ContentView.swift in Sources */,
-				A48868A22AC2B023005044F8 /* Item.swift in Sources */,
 				A488689E2AC2B023005044F8 /* AppleSwiftUITutorialApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
