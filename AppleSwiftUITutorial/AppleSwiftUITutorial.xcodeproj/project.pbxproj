@@ -11,6 +11,10 @@
 		A48868A02AC2B023005044F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A488689F2AC2B023005044F8 /* ContentView.swift */; };
 		A48868A42AC2B023005044F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A48868A32AC2B023005044F8 /* Assets.xcassets */; };
 		A48868A82AC2B023005044F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A48868A72AC2B023005044F8 /* Preview Assets.xcassets */; };
+		A48868AF2AC2B801005044F8 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48868AE2AC2B801005044F8 /* SettingsView.swift */; };
+		A48868B12AC2B9C2005044F8 /* SettingsDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48868B02AC2B9C2005044F8 /* SettingsDetailsView.swift */; };
+		A48868B32AC2BAE2005044F8 /* MyScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48868B22AC2BAE2005044F8 /* MyScene.swift */; };
+		A48869932AC2BD6A005044F8 /* MyAlternativeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48869922AC2BD6A005044F8 /* MyAlternativeScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		A48868A32AC2B023005044F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A48868A52AC2B023005044F8 /* AppleSwiftUITutorial.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppleSwiftUITutorial.entitlements; sourceTree = "<group>"; };
 		A48868A72AC2B023005044F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A48868AE2AC2B801005044F8 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A48868B02AC2B9C2005044F8 /* SettingsDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsDetailsView.swift; sourceTree = "<group>"; };
+		A48868B22AC2BAE2005044F8 /* MyScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyScene.swift; sourceTree = "<group>"; };
+		A48869922AC2BD6A005044F8 /* MyAlternativeScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAlternativeScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			isa = PBXGroup;
 			children = (
 				A488689D2AC2B023005044F8 /* AppleSwiftUITutorialApp.swift */,
+				A48868B22AC2BAE2005044F8 /* MyScene.swift */,
+				A48869922AC2BD6A005044F8 /* MyAlternativeScene.swift */,
+				A48868AE2AC2B801005044F8 /* SettingsView.swift */,
+				A48868B02AC2B9C2005044F8 /* SettingsDetailsView.swift */,
 				A488689F2AC2B023005044F8 /* ContentView.swift */,
 				A48868A32AC2B023005044F8 /* Assets.xcassets */,
 				A48868A52AC2B023005044F8 /* AppleSwiftUITutorial.entitlements */,
@@ -139,7 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A48868AF2AC2B801005044F8 /* SettingsView.swift in Sources */,
 				A48868A02AC2B023005044F8 /* ContentView.swift in Sources */,
+				A48868B32AC2BAE2005044F8 /* MyScene.swift in Sources */,
+				A48868B12AC2B9C2005044F8 /* SettingsDetailsView.swift in Sources */,
+				A48869932AC2BD6A005044F8 /* MyAlternativeScene.swift in Sources */,
 				A488689E2AC2B023005044F8 /* AppleSwiftUITutorialApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,7 +303,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.simorgh3196.AppleSwiftUITutorial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -325,7 +341,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.simorgh3196.AppleSwiftUITutorial;
 				PRODUCT_NAME = "$(TARGET_NAME)";

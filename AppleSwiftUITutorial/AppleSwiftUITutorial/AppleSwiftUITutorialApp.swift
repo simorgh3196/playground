@@ -11,8 +11,10 @@ import SwiftData
 @main
 struct AppleSwiftUITutorialApp: App {
   var body: some Scene {
-    WindowGroup {
-      ContentView()
-    }
+    #if os(iOS)
+    MyScene()
+    #elseif os(macOS)
+    MyAlternativeScene()
+    #endif
   }
 }
