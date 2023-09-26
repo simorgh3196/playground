@@ -77,6 +77,6 @@ struct SettingsView: View {
           .tag(item)
       }
     }
-    .frame(width: 375, height: 150)
+    .frame(minWidth: 375, minHeight: 150)
   }
 }

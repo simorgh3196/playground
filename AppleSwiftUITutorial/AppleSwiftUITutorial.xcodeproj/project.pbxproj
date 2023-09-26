@@ -15,6 +15,7 @@
 		A48868B12AC2B9C2005044F8 /* SettingsDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48868B02AC2B9C2005044F8 /* SettingsDetailsView.swift */; };
 		A48868B32AC2BAE2005044F8 /* MyScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48868B22AC2BAE2005044F8 /* MyScene.swift */; };
 		A48869932AC2BD6A005044F8 /* MyAlternativeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48869922AC2BD6A005044F8 /* MyAlternativeScene.swift */; };
+		A48869952AC2BE5A005044F8 /* ViewSamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48869942AC2BE5A005044F8 /* ViewSamples.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		A48868B02AC2B9C2005044F8 /* SettingsDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsDetailsView.swift; sourceTree = "<group>"; };
 		A48868B22AC2BAE2005044F8 /* MyScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyScene.swift; sourceTree = "<group>"; };
 		A48869922AC2BD6A005044F8 /* MyAlternativeScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAlternativeScene.swift; sourceTree = "<group>"; };
+		A48869942AC2BE5A005044F8 /* ViewSamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSamples.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				A488689D2AC2B023005044F8 /* AppleSwiftUITutorialApp.swift */,
+				A48869942AC2BE5A005044F8 /* ViewSamples.swift */,
 				A48868B22AC2BAE2005044F8 /* MyScene.swift */,
 				A48869922AC2BD6A005044F8 /* MyAlternativeScene.swift */,
 				A48868AE2AC2B801005044F8 /* SettingsView.swift */,
@@ -152,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A48868AF2AC2B801005044F8 /* SettingsView.swift in Sources */,
+				A48869952AC2BE5A005044F8 /* ViewSamples.swift in Sources */,
 				A48868A02AC2B023005044F8 /* ContentView.swift in Sources */,
 				A48868B32AC2BAE2005044F8 /* MyScene.swift in Sources */,
 				A48868B12AC2B9C2005044F8 /* SettingsDetailsView.swift in Sources */,
