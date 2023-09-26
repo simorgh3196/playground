@@ -103,6 +103,14 @@
 			path = "Layering content";
 			sourceTree = "<group>";
 		};
+		A4828A012AC2FA8A00393BA1 /* Scaling views to complement text */ = {
+			isa = PBXGroup;
+			children = (
+				A48289E72AC2E82000393BA1 /* KeywordBubble.swift */,
+			);
+			path = "Scaling views to complement text";
+			sourceTree = "<group>";
+		};
 		A48868912AC2B023005044F8 = {
 			isa = PBXGroup;
 			children = (
@@ -124,12 +132,12 @@
 			children = (
 				A488689D2AC2B023005044F8 /* AppleSwiftUITutorialApp.swift */,
 				A48869942AC2BE5A005044F8 /* ViewSamples.swift */,
-				A48289E72AC2E82000393BA1 /* KeywordBubble.swift */,
 				A48868B22AC2BAE2005044F8 /* MyScene.swift */,
 				A48869922AC2BD6A005044F8 /* MyAlternativeScene.swift */,
 				A48868AE2AC2B801005044F8 /* SettingsView.swift */,
 				A48868B02AC2B9C2005044F8 /* SettingsDetailsView.swift */,
 				A488689F2AC2B023005044F8 /* ContentView.swift */,
+				A4828A012AC2FA8A00393BA1 /* Scaling views to complement text */,
 				A4828A002AC2FA4000393BA1 /* Layering content */,
 				A48289FF2AC2FA0800393BA1 /* Choosing the right way to hide a view */,
 				A48289FE2AC2F9B900393BA1 /* Organizing and aligning content with stacks */,
