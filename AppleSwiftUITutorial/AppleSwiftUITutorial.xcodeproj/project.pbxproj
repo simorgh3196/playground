@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A48289E82AC2E82000393BA1 /* KeywordBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48289E72AC2E82000393BA1 /* KeywordBubble.swift */; };
 		A48289EA2AC2EA9300393BA1 /* CaptionedPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48289E92AC2EA9300393BA1 /* CaptionedPhoto.swift */; };
+		A48289EC2AC2F04800393BA1 /* IfElseTrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48289EB2AC2F04800393BA1 /* IfElseTrain.swift */; };
 		A488689E2AC2B023005044F8 /* AppleSwiftUITutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A488689D2AC2B023005044F8 /* AppleSwiftUITutorialApp.swift */; };
 		A48868A02AC2B023005044F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A488689F2AC2B023005044F8 /* ContentView.swift */; };
 		A48868A42AC2B023005044F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A48868A32AC2B023005044F8 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 /* Begin PBXFileReference section */
 		A48289E72AC2E82000393BA1 /* KeywordBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeywordBubble.swift; sourceTree = "<group>"; };
 		A48289E92AC2EA9300393BA1 /* CaptionedPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptionedPhoto.swift; sourceTree = "<group>"; };
+		A48289EB2AC2F04800393BA1 /* IfElseTrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfElseTrain.swift; sourceTree = "<group>"; };
 		A488689A2AC2B023005044F8 /* AppleSwiftUITutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleSwiftUITutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A488689D2AC2B023005044F8 /* AppleSwiftUITutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleSwiftUITutorialApp.swift; sourceTree = "<group>"; };
 		A488689F2AC2B023005044F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				A48869942AC2BE5A005044F8 /* ViewSamples.swift */,
 				A48289E72AC2E82000393BA1 /* KeywordBubble.swift */,
 				A48289E92AC2EA9300393BA1 /* CaptionedPhoto.swift */,
+				A48289EB2AC2F04800393BA1 /* IfElseTrain.swift */,
 				A48868B22AC2BAE2005044F8 /* MyScene.swift */,
 				A48869922AC2BD6A005044F8 /* MyAlternativeScene.swift */,
 				A48868AE2AC2B801005044F8 /* SettingsView.swift */,
@@ -166,6 +169,7 @@
 				A48868B32AC2BAE2005044F8 /* MyScene.swift in Sources */,
 				A48868B12AC2B9C2005044F8 /* SettingsDetailsView.swift in Sources */,
 				A48869932AC2BD6A005044F8 /* MyAlternativeScene.swift in Sources */,
+				A48289EC2AC2F04800393BA1 /* IfElseTrain.swift in Sources */,
 				A488689E2AC2B023005044F8 /* AppleSwiftUITutorialApp.swift in Sources */,
 				A48289EA2AC2EA9300393BA1 /* CaptionedPhoto.swift in Sources */,
 				A48289E82AC2E82000393BA1 /* KeywordBubble.swift in Sources */,
